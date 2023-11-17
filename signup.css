@@ -1,0 +1,265 @@
+/* sign up */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#signup-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #FFFFFF;
+}
+
+/* Frame 1 */
+
+#frame-1 {
+  position: absolute;
+  width: 662px;
+  height: 1048px;
+  left: 778px;
+  top: -24px;
+  background: #ECECEC;
+}
+
+/* Frame 2 */
+
+#frame-2 {
+  position: absolute;
+  width: 545px;
+  height: 889px;
+  left: 58px;
+  top: 44px;
+  background: #ECECEC;
+}
+
+/* Sign Up */
+
+#signup-title {
+  position: absolute;
+  width: 163px;
+  height: 61px;
+  left: 17px;
+  top: 25px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+/* Nickname */
+
+#nickname-label {
+  position: absolute;
+  width: 178px;
+  height: 38px;
+  left: 17px;
+  top: 114px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Nama */
+
+#nama-label {
+  position: absolute;
+  width: 178px;
+  height: 35px;
+  left: 17px;
+  top: 196px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Password */
+
+#password-label {
+  position: absolute;
+  width: 178px;
+  height: 38px;
+  left: 17px;
+  top: 274px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Confirm Password */
+
+#confirm-password-label {
+  position: absolute;
+  width: 178px;
+  height: 38px;
+  left: 17px;
+  top: 368px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Rectangle 5 */
+
+.input-rectangle {
+  position: absolute;
+  width: 487px;
+  height: 38px;
+  left: 17px;
+  top: 222px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+/* Frame 4 */
+
+#frame-4 {
+  position: absolute;
+  width: 412px;
+  height: 165px;
+  left: 17px;
+  top: 579px;
+}
+
+/* Frame 3 */
+
+#frame-3 {
+  position: absolute;
+  width: 255px;
+  height: 52px;
+  left: 0px;
+  top: 50px;
+  background: #F39C12;
+  border-radius: 30px;
+}
+
+/* Create an account */
+
+#create-account-label {
+  position: absolute;
+  width: 237px;
+  height: 45px;
+  left: 9px;
+  top: 7px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #D7D7D7;
+}
+
+/* Have an account login */
+
+#login-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 10px;
+  position: absolute;
+  width: 261px;
+  height: 28px;
+  left: 9px;
+  top: 102px;
+}
+
+/* Already have an account? Log in */
+
+#login-label {
+  width: 257px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+/* Line 1 */
+
+#line-1 {
+  position: absolute;
+  width: 53px;
+  height: 0px;
+  left: 215px;
+  top: 125px;
+  border: 1px solid #000000;
+}
+
+/* Rectangle 5 */
+
+#rectangle-5 {
+  position: absolute;
+  width: 487px;
+  height: 38px;
+  left: 17px;
+  top: 295px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+/* Error message */
+
+#error-message-1 {
+  position: absolute;
+  height: 21px;
+  left: 75px;
+  right: 124px;
+  top: 382px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+}
+
+/* Error message */
+
+#error-message-2 {
+  position: absolute;
+  height: 21px;
+  left: 75px;
+  right: 124px;
+  top: 478px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+}
+
+/* Page Pokemon 1 */
+
+#page-pokemon-1 {
+  position: absolute;
+  width: 778px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: url(pokemon.jpg);
+}
