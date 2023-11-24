@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+</style>
     <title>Sign In</title>
 </head>
 <body>
@@ -19,7 +25,7 @@
             <div class="signin-title">Sign In</div>
 
             <!-- Your Nickname -->
-            <div>Your Nickname:</div>
+            <div id="nickname-label">Your Nickname:</div>
             <div class="input-rectangle"></div>
 
             <!-- Password -->
@@ -36,7 +42,7 @@
             <div id="frame-4">
 
                 <!-- Sign In -->
-                <div id="signin-button">Sign In</div>
+                <a href="index.html"><div id="signin-button">Sign In</div></div></a>
 
                 <!-- Don’t have an account? Sign up -->
                 <div id="signup-link">Don’t have an account? <a href="signup.html">Sign up</a></div>

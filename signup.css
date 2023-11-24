@@ -58,7 +58,7 @@ body {
   height: 38px;
   left: 17px;
   top: 114px;
-  font-family: 'Poppins';
+  font-family: Poppins;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -261,5 +261,5 @@ body {
   height: 1024px;
   left: 0px;
   top: 0px;
-  background: url(pokemon.jpg);
+  background: url(image/pokemon.jpg);
 }
