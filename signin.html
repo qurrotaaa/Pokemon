@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="signin.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <style>
 body {
@@ -13,45 +13,23 @@ body {
     <title>Sign In</title>
 </head>
 <body>
-
-    <div id="signin-container">
-        <!-- Frame 5 -->
-        <div id="frame-5">
-
-            <!-- logo_login-removebg-preview 1 -->
-            <div class="logo-image"></div>
-
-            <!-- Sign In -->
-            <div class="signin-title">Sign In</div>
-
-            <!-- Your Nickname -->
-            <div id="nickname-label">Your Nickname:</div>
-            <div class="input-rectangle"></div>
-
-            <!-- Password -->
-            <div id="password-label">Password:</div>
-            <div class="input-rectangle"></div>
-
-            <!-- Rectangle 5 -->
-            <div class="input-rectangle"></div>
-
-            <!-- Rectangle 6 -->
-            <div id="rectangle-6"></div>
-
-            <!-- Frame 4 -->
-            <div id="frame-4">
-
-                <!-- Sign In -->
-                <a href="index.html"><div id="signin-button">Sign In</div></div></a>
-
-                <!-- Don’t have an account? Sign up -->
-                <div id="signup-link">Don’t have an account? <a href="signup.html">Sign up</a></div>
-
-            </div>
-
-        </div>
-    </div>
-<!-- page pokemon 2 -->
-<div id="page-pokemon-2"></div>
+    <table>
+        <tr>
+            <td>
+                <img src="image/logo.jpg">
+            <h2>Sign In</h2>
+            <form action="index.html">
+                <label for="nickname">Your nickname</label><br>
+                <input type="text" id="nickname" name="nickname" required><br>
+        
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required><br>
+        
+                <button type="submit">Sign In</button><br>
+                Don't have an account? <a href="signup.html">Sign Up</a>
+            </form>
+            </td><td>
+                <img src="image/pokemon.png">
+            </td>
 </body>
 </html>

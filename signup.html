@@ -3,75 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="signup.css">
     <title>Sign Up</title>
 </head>
 <body>
-
-    <div id="signup-container">
-
-        <!-- Frame 1 -->
-        <div id="frame-1"></div>
-
-        <!-- Frame 2 -->
-        <div id="frame-2">
-            
-        </div>
-
-        <!-- Sign Up -->
-        <div id="signup-title">Sign Up</div>
-
-        <!-- Nickname -->
-        <div id="nickname-label">Nickname:</div>
-        <div class="input-rectangle"></div>
-
-        <!-- Nama -->
-        <div id="nama-label">Nama:</div>
-        <div class="input-rectangle"></div>
-
-        <!-- Password -->
-        <div id="password-label">Password:</div>
-        <div class="input-rectangle"></div>
-
-        <!-- Confirm Password -->
-        <div id="confirm-password-label">Confirm Password:</div>
-        <div class="input-rectangle"></div>
-
-        <!-- Rectangle 5 -->
-        <div id="rectangle-5"></div>
-
-        <!-- Frame 4 -->
-        <div id="frame-4"></div>
-
-        <!-- Frame 3 -->
-        <div id="frame-3">
-            <!-- Isi konten Frame 3 di sini -->
-        </div>
-
-        <!-- Create an account -->
-        <div id="create-account-label">Create an account</div>
-
-        <!-- Have an account login -->
-        <div id="login-container">
-            <!-- Isi konten Have an account login di sini -->
-        </div>
-
-        <!-- Line 1 -->
-        <div id="line-1"></div>
-
-        <!-- Rectangle 5 -->
-        <div id="rectangle-5"></div>
-
-        <!-- Error message 1 -->
-        <div id="error-message-1">Error Message 1</div>
-
-        <!-- Error message 2 -->
-        <div id="error-message-2">Error Message 2</div>
-
-        <!-- Page Pokemon 1 -->
-        <div id="page-pokemon-1"></div>
-
-    </div>
-
+    <table>
+        <tr><td>
+            <img src="image/pokemon.png">
+        </td>
+    <td>
+        <img src="image/logo.jpg">
+        <h2>Sign Up</h2>
+        <form action="signin.html">
+            <label for="nickname"><b>Nickname</b></label><br>
+            <input type="text" id="nickname" name="nickname" required><br>
+            <label for="email"><b>Email address</b></label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="country"><b>Country/Region</b></label><br>
+            <input type="text" id="country" name="country" required><br>
+            <label for="date"><b>Date  of Birth</b></label><br>
+            <input type="date" id="date" name="date" required><br>
+            <label for="password"><b>Password</b></label><br>
+            <input type="password" id="password" name="password" required><br>
+            <label for="nickname"><b>Confirm Password</b></label><br>
+            <input type="text" id="confirm" name="confirm" required><br>
+            <button type="submit">Sign Up</button><br>
+            Already have an account? <a href="signin.html">Sign In</a>
+        </form>
+        </td></tr>
 </body>
 </html>
