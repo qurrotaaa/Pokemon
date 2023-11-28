@@ -24,9 +24,11 @@
             <label for="date"><b>Date  of Birth</b></label><br>
             <input type="date" id="date" name="date" required><br>
             <label for="password"><b>Password</b></label><br>
-            <input type="password" id="password" name="password" required><br>
+            <input type="password" id="password" name="password" pattern="^(?=.*[a-zA-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required><br>
+            <small>Use 8 or more characters with a mix of letters, number & symbols</small><br>
             <label for="nickname"><b>Confirm Password</b></label><br>
-            <input type="text" id="confirm" name="confirm" required><br>
+            <input type="password" id="confirm_password" name="confirm_password" pattern="^(?=.*[a-zA-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required><br>
+            <small>Use 8 or more characters with a mix of letters, number & symbols</small><br>
             <button type="submit">Sign Up</button><br>
             Already have an account? <a href="signin.html">Sign In</a>
         </form>
