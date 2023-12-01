@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.display {
+  position: relative;
+  min-height: 100vh;
+  top: 0;
+  left: 80px;
+  transition: all 0.5s ease;
+  width: calc(100% - 80px);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-top {
+  margin-top: 50px;
+}
+
+.display-body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.display-body-right {
+  margin-left: 50px;
+}
+
+.card-pokemon {
+  border: 2px solid black;
+}
+
+.card-pokemon .card-title {
+  background-color: red;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.card-pokemon .card-title.title {
+  margin-top: 0;
+}
+
+.card-pokemon .card-logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.card-pokemon .card-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.display-artikel {
+  overflow: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 500px;
+}
+
+.display-artikel-img img {
+  height: 500px;
+  width: 500px;
+}

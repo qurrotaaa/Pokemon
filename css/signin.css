@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.box-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.box-left-top {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.box-left-body {
+  margin-left: 100px;
+  margin-top: 70px;
+  font-weight: 700;
+}
+
+.box-left-body h2 {
+  font-size: 30px;
+}
+
+.box-left-body form {
+  margin-top: 30px;
+  width: 600px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.input input {
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.box-left-signin {
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-left-signin button {
+  background-color: red;
+  width: 255px;
+  height: 52px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signin-text {
+  padding-top: 10px;
+  margin-left: 14px;
+}
+
+.box-right {
+  width: 40%;
+  position: relative;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.signin-img {
+  height: 100vh;
+  width: 100%;
+}
+
+.signin-logo {
+  width: 500px;
+}
